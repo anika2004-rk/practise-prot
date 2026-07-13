@@ -1,9 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 nav{
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    margin:  auto;
+    padding: 15px;
 }
 ul{
     display: flex;
     gap: 20px;
     list-style: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Open Sans;
+}
+.r{
+    color: #FD6E0A
 }
